@@ -57,3 +57,20 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+gradle/
+eclipse/
+*.gradle
+gradlew
+gradlew.*
+MinecraftForge*
+README.txt
+LICENSE-fml.txt
+CREDITS-fml.txt
+*-changelog.txt
+.classpath
+.project
+.settings/
+bin/
+src/main/resources/assets/aputils/
+src/main/java/tk/

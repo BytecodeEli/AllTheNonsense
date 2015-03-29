@@ -1,0 +1,16 @@
+[
+{
+  "modid": "AllTheNonsense",
+  "name": "AllTheNonsense",
+  "description": "I don't even know how to describe this",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["D3add3d"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
