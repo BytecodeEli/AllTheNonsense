@@ -5,6 +5,8 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
 public class CommonBlock extends Block {
+	
+	public String tab;
 
 	public CommonBlock(Material par0Material, String par1BlockName)
 	{

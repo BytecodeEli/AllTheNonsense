@@ -31,6 +31,7 @@ public class BlockRegistrar {
 		map.put("resistance", 2.0F);
 		map.put("step", Block.soundTypeStone);
 		map.put("light", 1.0F);
+		map.put("tab", "common");
 		blockObjects.add(map);
 		
 		
@@ -72,7 +73,14 @@ public class BlockRegistrar {
 	public static void populateCreativeTabs() {
 		for(int j = 0; j < blocks.length; j++)
 		{
-			blocks[j].setCreativeTab(Reference.commonTab);
+			switch(blocks[j].tab)
+			{
+			case "common":
+				blocks[j].setCreativeTab(Reference.commonTab);
+				break;
+			default:
+				blocks[j].setCreativeTab(Reference.commonTab);
+			}
 		}
 	}
 	
